@@ -13,12 +13,19 @@ public class mainMethodExplanation{
 
 
     //this is public because the jre has to call this method thus needing it to be public
+    //its public because the method has to be callable
     public static void main(String[] args)
     {
         int i = 0;
         int x = 1;
 
         System.out.println("hello world" + (x+i));
+
+        //changing the values of args in my ide
+        //values passed {testing,test,111,1.3,null,1MDNi33}
+        System.out.println();
+
+
     }
 
 
